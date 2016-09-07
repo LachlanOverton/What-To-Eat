@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="175px"
+            android:layout_height="175px"
+            android:id="@+id/imageView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="TitleTitleTitleTitleTitleTitle"
+            android:id="@+id/textView2"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageView"
+            android:layout_toEndOf="@+id/imageView" />
+
+        <Space
+            android:layout_width="500px"
+            android:layout_height="20px"
+            android:layout_below="@+id/textView2"
+            android:layout_toRightOf="@+id/imageView"
+            android:layout_toEndOf="@+id/imageView"
+            android:id="@+id/space" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textView4"
+            android:layout_below="@+id/space"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium TextMedium TextMedium TextMedium TextMedium TextMedium TextMedium TextMedium Text"
+            android:id="@+id/textView3"
+            android:layout_below="@+id/textView4"
+            android:layout_toRightOf="@+id/imageView"
+            android:layout_toEndOf="@+id/imageView" />
+
+
+
+    </RelativeLayout>
+</LinearLayout>

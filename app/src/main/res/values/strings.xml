@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">What To Eat</string>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCOGiRG1JikHsC9VPvpczYj0PsY3I_O3qc</string>
+</resources>
